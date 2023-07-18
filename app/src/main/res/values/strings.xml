@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ComposeExample</string>
+    <string name="go">Go</string>
+    <string name="exit">Exit</string>
+    <string name="image_description">Compose app with image, text, two buttons, appbar and bottombar.</string>
+</resources>
