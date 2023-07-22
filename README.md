@@ -10,4 +10,4 @@ Compose
 </p>
 
 <p>
-<img src="https://github.com/OlyaAnv/ComposeExample/blob/master/compose.jpg" width="200">
+<img src="https://github.com/OlyaAnv/ComposeExample/blob/master/git%20exapl%20compose.png" width="400">
