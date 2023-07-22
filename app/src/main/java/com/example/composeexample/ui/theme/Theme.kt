@@ -1,5 +1,6 @@
 package com.example.composeexample.ui.theme
 
+import android.annotation.SuppressLint
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
@@ -7,13 +8,17 @@ import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 
+
 private val DarkColorPalette = darkColors(
-    primary = Black,
+    primary = Green,
     primaryVariant = White,
     secondary = Teal200,
     onPrimary = White,
     onSecondary = Black,
-    surface = Orange
+    surface = Orange,
+    //background = Black,
+    //onBackground = Orange
+
 )
 
 private val LightColorPalette = lightColors(
@@ -22,7 +27,9 @@ private val LightColorPalette = lightColors(
     secondary = Teal200,
     onPrimary = White,
     onSecondary = Black,
-    surface = Orange
+    surface = Orange,
+    //background = White,
+    //onBackground = Orange
 
     /* Other default colors to override
     background = Color.White,
